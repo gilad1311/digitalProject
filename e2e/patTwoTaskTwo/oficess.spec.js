@@ -1,6 +1,6 @@
 
 /// <reference types="cypress" />
-import base_gsb_url from '../fixtures/valus.json'
+import base_gsb_url from '../../fixtures/valus.json'
 
 describe('GetAggregationForOffices API Request', () => {
   it('should return status code 200 for GetAggregationForOffices API request on the government service branches page', () => {

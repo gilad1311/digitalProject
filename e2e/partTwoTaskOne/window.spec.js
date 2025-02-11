@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import '../fixtures/valus.json'
+import '../../fixtures/valus.json'
 
 describe('Search Box testing', () =>
 
