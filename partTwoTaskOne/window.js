@@ -1,9 +1,11 @@
 /// <reference types="cypress" />
 import '../fixtures/valus.json'
 
+describe('Search Box testing', () =>
+
 beforeEach(() => {
   cy.visit(base_url);
-})
+}));
 
   it('Verify Search Input Field Is Present and Usable', () => {
   
